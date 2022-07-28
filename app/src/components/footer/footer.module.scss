@@ -1,0 +1,42 @@
+.footerWrapper {
+    background-color: $color-charcoal;
+    width: 100%;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .socials {
+        a {
+            margin-right: 1.5rem;
+
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .copyright {
+        font-family: "cutive-mono";
+        font-size: 0.8rem;
+        color: $color-gold;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .footerLinks {
+        .privacyPolicy {
+            font-family: "cutive-mono";
+            font-size: 0.8rem;
+            color: $color-gold;
+
+            &:hover {
+                color: $color-silver;
+            }
+        }
+    }
+}
